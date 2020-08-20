@@ -1,1 +1,1 @@
-{"service": {"name":"helloworld","tags":["testing"],"port":"8080"}}
+{"service": {"name":"helloworld","tags":["testing"],"port":8080}}

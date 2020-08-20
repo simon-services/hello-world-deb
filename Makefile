@@ -15,10 +15,8 @@ build: clean hello-world
 	rm -rf tmp
 
 lxd-test: build
-	#lxc delete -f test-hello-world
-	lxc launch "images:debian/11" test-hello-world
-	lxc file push hello-world-0.0.1-amd64.deb test-hello-world/root/
-	lxc exec test-hello-world -- bash -c "apt update && apt upgrade -y && apt install -y -f ./hello-world-0.0.1-amd64.deb"
+	lxc file push hello-world-0.0.1-amd64.deb test-consul/root/
+	lxc exec test-consul -- bash -c "apt install -y -f ./hello-world-0.0.1-amd64.deb"
 
 .PHONY: clean 
 clean:
