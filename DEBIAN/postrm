@@ -2,8 +2,3 @@
 
 supervisorctl stop helloworld
 supervisorctl remove helloworld
-supervisorctl stop helloworld-proxy
-supervisorctl remove helloworld-proxy
-rm -fv /opt/github.com/simon.services/consul/consul.d/helloworld.json
-rm -fv /opt/github.com/simon.services/consul/consul.d/helloworld-proxy.json
-/opt/github.com/simon.services/consul/bin/consul reload
