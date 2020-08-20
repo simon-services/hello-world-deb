@@ -3,4 +3,4 @@
 supervisorctl stop helloworld
 supervisorctl remove helloworld
 rm -fv /opt/github.com/simon.services/consul/consul.d/helloworld.json
-
+/opt/github.com/simon.services/consul/bin/consul reload
