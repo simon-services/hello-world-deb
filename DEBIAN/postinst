@@ -2,6 +2,7 @@
 
 chmod +x /opt/github.com/simon.services/hello-world/bin/hello-world
 supervisorctl update helloworld
+cp -fv /opt/github.com/simon.services/hello-world/consul.d/helloworld-proxy.json /opt/github.com/simon.services/consul/consul.d/
 cp -fv /opt/github.com/simon.services/hello-world/consul.d/helloworld.json /opt/github.com/simon.services/consul/consul.d/
 /opt/github.com/simon.services/consul/bin/consul reload
-
+supervisorctl update helloworld-proxy
