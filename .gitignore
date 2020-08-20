@@ -17,4 +17,5 @@
 *.zip
 tmp/
 .*.swp
+opt/github.com/simon.services/hello-world/bin/hello-world
 

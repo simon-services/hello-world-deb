@@ -5,6 +5,6 @@ Section: admin
 Essential: no
 Priority: optional
 Pre-Depends: supervisor
-Depends: supervisor  (>= 4.1.0)
+Depends: supervisor  (>= 4.1.0) consul (>= 1.8.3)
 Maintainer: opunix <francsic.simon@evalgo.org>
 Description: Hello World Debian example package for testing

@@ -2,4 +2,5 @@
 
 supervisorctl stop helloworld
 supervisorctl remove helloworld
+rm -fv /opt/github.com/simon.services/consul/consul.d/helloworld.json
 
