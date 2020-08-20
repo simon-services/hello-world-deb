@@ -1,0 +1,10 @@
+package: hello-world
+Version: 0.0.1
+Architecture: amd64
+Section: admin
+Essential: no
+Priority: optional
+Pre-Depends: supervisor
+Depends: supervisor  (>= 4.1.0)
+Maintainer: opunix <francsic.simon@evalgo.org>
+Description: Hello World Debian example package for testing
