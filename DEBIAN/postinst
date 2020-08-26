@@ -1,4 +1,4 @@
 #!/bin/bash
 
-chmod +x /opt/github.com/simon.services/hello-world/bin/hello-world
+chmod +x /opt/simon.services/hello-world/bin/hello-world
 supervisorctl update helloworld
